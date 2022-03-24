@@ -6,7 +6,7 @@ public class MainPrg
 {
     public static void main(String[] args) throws InterruptedException
     {
-        JFrame f = new JFrame("Sorting Visualizer");
+        JFrame f = new JFrame("Mergesort Visualization");
 
         DrawLines line = new DrawLines();
         f.getContentPane().add(line);
